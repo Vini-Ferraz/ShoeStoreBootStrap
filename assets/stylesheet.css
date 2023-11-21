@@ -3,18 +3,38 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.card-imagem{
+    width: clamp(20rem, 33vw, 100%);
+    object-fit: cover;
+    overflow: hidden;
+}
 #hero-row{
     margin-top: 12%;
 }
+#hero-row-text-box{
+    width: 45vw;
+}
+#img-hero-row{
+    max-width: 100vh;
+    max-height: 100vh;
+    width: 100%;
+}
+
 
 @media (max-width: 425px) {
     #hero-row{
         margin-top: 25%;
+    }
+    #hero-row-text-box{
+        width: 90vw;
     }
 }
 
 @media (min-width: 425px) and (max-width: 700px) {
     #hero-row{
         margin-top: 20%;
+    }
+    #hero-row-text-box{
+        width: 100vw;
     }
 }

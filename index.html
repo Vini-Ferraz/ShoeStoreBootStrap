@@ -12,7 +12,7 @@
     
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary p-3 shadow">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shoe<span class="text-warning">Store</span></a>
+          <a class="navbar-brand" href="#">Shoe<span class="text-danger">Store</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,39 +35,39 @@
         </div>
       </nav>
 
-      <section class="container-fluid d-flex align-items-center flex-wrap" id="hero-row">
-        <article class="d-flex flex-column align-items-center pb-5 w-100">
+      <section class="container-fluid d-flex align-items-center justify-content-around flex-wrap mb-5" id="hero-row">
+        <article class="d-flex flex-column pb-5" id="hero-row-text-box">
           <h1 class="fw-bolder titulo">Welcome to ShoeStore</h1>
-          <p class="fs-3 text-center">Discover the latest trends in footwear at ShoeStore. Experience comfort, style, and quality in every step. Explore our exclusive collection now.</p>
+          <p class="fs-3 ">Discover the latest trends in footwear at ShoeStore. Experience comfort, style, and quality in every step. Explore our exclusive collection now.</p>
           <button type="button" class="btn btn-outline-danger fs-3">Buy now!</button>
         </article>
         <figure>
-          <img src="assets\shoe-picture-hero-row.jpg" class="img-thumbnail" alt="Picture of a floating whitw shoe" class="img-fluid">
+          <img src="assets\shoe-picture-hero-row.jpg" class="rounded" id="img-hero-row" alt="Picture of a floating whitw shoe" class="img-fluid">
         </figure>
       </section>
 
-      <section class="container d-flex align-items-center justify-content-evenly flex-wrap" id="features">
-        <div class="card" style="width: 20rem;">
-          <img src="assets\shoe-card-1.jpg" class="card-img-top" alt="Picture of a white sneakers">
+      <section class="container d-flex align-items-center justify-content-evenly flex-wrap pb-5 pt-5 bg-danger-subtle border border-black rounded" id="features">
+        <div class="card overflow-hidden mb-3 shadow" style="width: 20rem; height: 35rem;">
+          <img src="assets\shoe-card-1.jpg" class="card-img-top card-imagem" alt="Picture of a white sneakers">
           <div class="card-body">
             <p class="card-text">Some of the finest craftsmanship tailored into every pair, ensuring both elegance and durability for every step you take.</p>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
-          <img src="assets\shoe-card-2.jpg" class="card-img-top" alt="Picture of a black sneakers on a white table">
+        <div class="card overflow-hidden mb-3 shadow" style="width: 20rem; height: 35rem;">
+          <img src="assets\shoe-card-2.jpg" class="card-img-top card-imagem" alt="Picture of a black sneakers on a white table">
           <div class="card-body">
             <p class="card-text">Explore our diverse collection curated to match your style and comfort, promising sophistication without compromise.</p>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
-          <img src="assets\shoe-card-3.jpg" class="card-img-top" alt="Picture of a blue high heels on a white table">
+        <div class="card overflow-hidden mb-3 shadow" style="width: 20rem; height: 35rem;">
+          <img src="assets\shoe-card-3.jpg" class="card-img-top card-imagem" alt="Picture of a blue high heels on a white table">
           <div class="card-body">
             <p class="card-text">Discover innovation woven into every design, blending modern trends with timeless classics for the perfect fit.</p>
           </div>
         </div>
       </section>
       
-      <section id="gallery">
+      <section id="gallery" class="mt-5">
         <h1>Explore Our Latest Collections</h1>
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
@@ -118,7 +118,7 @@
       </section>
 
       <footer class="d-flex flex-column align-items-center justify-content-evenly bg-info-subtle">
-        <h1>Shoe<span class="text-warning">Store</span></h1>
+        <h1>Shoe<span class="text-danger">Store</span></h1>
         <hr>
         <p>Step into Comfort and Style, Seamlessly.</p>
       </footer>
