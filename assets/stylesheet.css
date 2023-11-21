@@ -11,7 +11,7 @@ body{
 #hero-row{
     margin-top: 12%;
 }
-#hero-row-text-box{
+.text-box{
     width: 45vw;
 }
 #img-hero-row{
@@ -29,7 +29,7 @@ body{
     #hero-row{
         margin-top: 25%;
     }
-    #hero-row-text-box{
+    .text-box{
         width: 90vw;
     }
 }
@@ -38,7 +38,7 @@ body{
     #hero-row{
         margin-top: 20%;
     }
-    #hero-row-text-box{
+    .text-box{
         width: 100vw;
     }
 }
