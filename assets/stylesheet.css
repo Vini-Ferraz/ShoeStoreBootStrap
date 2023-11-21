@@ -1,8 +1,14 @@
 #hero-row{
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 @media (max-width: 425px) {
+    #hero-row{
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 700px) {
     #hero-row{
         margin-top: 20%;
     }
