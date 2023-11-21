@@ -19,6 +19,10 @@ body{
     max-height: 100vh;
     width: 100%;
 }
+.carousel-img{
+    max-height: 100vh;
+    object-fit: cover;
+}
 
 
 @media (max-width: 425px) {
