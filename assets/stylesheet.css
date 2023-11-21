@@ -1,0 +1,9 @@
+#hero-row{
+    margin-top: 10%;
+}
+
+@media (max-width: 425px) {
+    #hero-row{
+        margin-top: 20%;
+    }
+}

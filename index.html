@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\stylesheet.css">
 
 </head>
 <body>
     
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary p-3 shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Shoe<span class="text-warning">Store</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,20 +19,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#hero-row">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#location">Location</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <section class="container d-flex align-items-center flex-wrap">
+      <section class="container d-flex align-items-center flex-wrap" id="hero-row">
         <article>
           <h1>Welcome to ShoeStore.</h1>
           <p>Discover the latest trends in footwear at ShoeStore. Experience comfort, style, and quality in every step. Explore our exclusive collection now.</p>
@@ -42,7 +46,7 @@
         </figure>
       </section>
 
-      <section class="container d-flex align-items-center justify-content-evenly flex-wrap">
+      <section class="container d-flex align-items-center justify-content-evenly flex-wrap" id="features">
         <div class="card" style="width: 20rem;">
           <img src="assets\shoe-card-1.jpg" class="card-img-top" alt="Picture of a white sneakers">
           <div class="card-body">
@@ -63,7 +67,7 @@
         </div>
       </section>
       
-      <section>
+      <section id="gallery">
         <h1>Explore Our Latest Collections</h1>
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
@@ -105,7 +109,7 @@
         </div>
       </section>
 
-      <section class="container d-flex align-items-center justify-content-evenly flex-wrap">
+      <section class="container d-flex align-items-center justify-content-evenly flex-wrap" id="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.028973271446!2d-74.04581218135176!3d40.689481701255644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sEstatua%20da%20Liberdade!5e0!3m2!1spt-BR!2sbr!4v1700578861528!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <article style="width: 45%;">
           <h2>Visit Our Store</h2>
