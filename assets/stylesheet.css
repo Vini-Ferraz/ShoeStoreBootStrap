@@ -8,11 +8,15 @@ body{
     object-fit: cover;
     overflow: hidden;
 }
+
 #hero-row{
     margin-top: 12%;
 }
 .text-box{
-    width: 45vw;
+    width: 45%;
+}
+#img-hero-row-container{
+    width: 50%;
 }
 #img-hero-row{
     max-width: 100vh;
@@ -23,15 +27,24 @@ body{
     max-height: 100vh;
     object-fit: cover;
 }
-
+#map{
+    width: 50%;
+}
 
 @media (max-width: 425px) {
     #hero-row{
         margin-top: 25%;
     }
+    #img-hero-row-container{
+        width: 100%;
+    }
     .text-box{
         width: 90vw;
     }
+    #map{
+        width: 100%;
+    }
+ 
 }
 
 @media (min-width: 425px) and (max-width: 700px) {
@@ -39,6 +52,13 @@ body{
         margin-top: 20%;
     }
     .text-box{
-        width: 100vw;
+        width: 100%;
+        text-align: center;
+    }
+    #img-hero-row-container{
+        width: 100%;
+    }
+    #map{
+        width: 100%;
     }
 }
