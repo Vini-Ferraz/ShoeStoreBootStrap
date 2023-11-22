@@ -1,14 +1,14 @@
+/* Setting font family for the entire body */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
 body{
     font-family: 'Lato', sans-serif;
 }
+/* Styling for general elements */
 .card-imagem{
     width: clamp(20rem, 33vw, 100%);
     object-fit: cover;
     overflow: hidden;
 }
-
 #hero-row{
     margin-top: 12%;
 }
@@ -30,7 +30,7 @@ body{
 #map{
     width: 50%;
 }
-
+/* Media query for screens with a maximum width of 425px */
 @media (max-width: 425px) {
     #hero-row{
         margin-top: 25%;
@@ -44,9 +44,8 @@ body{
     #map{
         width: 100%;
     }
- 
 }
-
+/* Media query for screens with a width between 425px and 700px */
 @media (min-width: 425px) and (max-width: 700px) {
     #hero-row{
         margin-top: 20%;
